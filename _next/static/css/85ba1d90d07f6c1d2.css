@@ -1,0 +1,26 @@
+@font-face {
+    font-family: __nicesugar_cc5e54;
+    src: url("../../../font/mn.woff2") format("woff2");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: __nicesugar_Fallback_cc5e54;
+    src: local("Arial");
+    ascent-override: 79.56%;
+    descent-override: 25.32%;
+    line-gap-override: 2.07%;
+    size-adjust: 116.14%;
+}
+
+.__className_cc5e54 {
+    font-family: __nicesugar_cc5e54, __nicesugar_Fallback_cc5e54;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.__variable_cc5e54 {
+    --font: "__nicesugar_cc5e54", "__nicesugar_Fallback_cc5e54";
+}
